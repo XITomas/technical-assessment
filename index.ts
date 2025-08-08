@@ -8,26 +8,6 @@ interface UserSession {
   expiresAt: Date;
 }
 
-
-// What Programming Language ? 
-// - How did you identify it
-
-// What runtime environment does this suggest ?
-// - Which APIs or indicators led you to this conclusion
-
-// Would this code work in a browser without modifications ? Why / why not?
-
-// BONUS :
-
-// Identify potential security issues or improvements in this code
-
-// Extra questions for Backend Profile Assessment
-
-// - Did you identify any code smells (unused variable, etc..)
-
-// - What would you do with the secretKey property
-
-
 class SessionManager {
   private sessions: Map<string, UserSession> = new Map();
   private readonly secretKey: string;
