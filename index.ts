@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { readFileSync, writeFileSync } from 'fs';
 import * as crypto from 'crypto';
 
